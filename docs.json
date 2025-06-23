@@ -98,5 +98,11 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "api-reference/oops",
+      "destination": "api-reference/pet/update-an-existing-pet-%C3%A8%C3%A9%C3%AA%C3%AB%C4%9B%E1%BA%BD%C4%93%C4%97%C4%99%CF%89%E2%89%88%C3%A7%E2%88%9A%E2%88%AB%CB%9C%C2%B5%E2%89%A4%E2%89%A5%C3%B7%C3%B7%C3%A5%C3%9F%E2%88%82%C6%92%C2%AB%E2%80%98%E2%80%9C%CF%80%C3%B8%CB%86%C2%A8%C2%A5%E2%80%A0%C2%AE%C2%B4%E2%88%91%C5%93%C3%A6%E2%80%A6%C2%AC%CB%9A%E2%88%86%CB%99"
+    }
+  ]
 }
