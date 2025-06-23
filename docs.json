@@ -51,14 +51,6 @@
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
             ]
-          },
-          {
-            "navigation": [
-              {
-                "group": "API reference",
-                "openapi": "openapi.json"
-              }
-            ]
           }
         ]
       }
