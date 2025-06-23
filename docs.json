@@ -101,12 +101,12 @@
   },
   "redirects": [
     {
-      "source": "api-reference/oops",
-      "destination": "api-reference/pet/update-an-existing-p%C3%A9t"
+      "source": "/api-reference/oops",
+      "destination": "/api-reference/pet/update-an-existing-p%C3%A9t"
     },
     {
-      "source": "api-reference/haha",
-      "destination": "api-reference/pet/add-a-new-pet-to-the-store"
+      "source": "/api-reference/haha",
+      "destination": "/api-reference/pet/add-a-new-pet-to-the-store"
     }
   ]
 }
