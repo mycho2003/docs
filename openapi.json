@@ -50,7 +50,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Update an existing pèt",
+        "summary": "Update an existing pét",
         "description": "Update an existing pet by Id",
         "operationId": "updatePet",
         "requestBody": {
