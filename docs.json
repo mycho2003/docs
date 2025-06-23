@@ -102,7 +102,7 @@
   "redirects": [
     {
       "source": "/api-reference/oops",
-      "destination": "/api-reference/pet/update-an-existing-p%C3%A9t"
+      "destination": "/api-reference/pet/update-an-existing-pet"
     },
     {
       "source": "/api-reference/haha",
