@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "API Reference",
+        "tab": "mycho's hot sauce",
         "groups": [
           {
             "group": "API Documentation",
@@ -78,7 +78,7 @@
   "redirects": [
     {
       "source": "/api-reference/oops",
-      "destination": "/api-reference/pet/update-an-existing-p%C3%A9t"
+      "destination": "/api-reference/pet/update-an-existing-pét"
     },
     {
       "source": "/api-reference/haha",
