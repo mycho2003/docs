@@ -44,23 +44,7 @@ hihihi
 <Tabs>
       <Tab title="Fail Validate (Mobile Flow)"> 
       <Step title="Send Auth Token to the Front End">
-        Your back end will send the authToken to the front end SDK to do the possession handling. During the mobile flow, use 1111 to simulate a failed OTP when presented with the following OTP page. 
-            <Frame>
-              <img src="/images/docs/OTP.png" />
-            </Frame>       
-      Once the front end finishes the possession check, the back end calls the /validate endpoint with the correlation ID to authenticate the trustworthiness of the phone number.  
         
-      The test user then fails /validate. 
-        ```json Response
-        {
-          "next": {
-            "done": "done"
-          },
-          "success": false,
-          "challengeMissing": false
-        }
-        ```
-      The Prove flow is terminated and the front end proceeds to another authentication method.
       </Step>
       </Tab>
       
