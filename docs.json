@@ -78,7 +78,7 @@
   "redirects": [
     {
       "source": "/api-reference/oops",
-      "destination": "/api-reference/pet/update-an-existing-pét"
+      "destination": "/api-reference/pet/update-an-existing-p%C3%A9t"
     },
     {
       "source": "/api-reference/haha",
