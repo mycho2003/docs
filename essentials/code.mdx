@@ -63,54 +63,5 @@ hihihi
       The Prove flow is terminated and the front end proceeds to another authentication method.
       </Step>
       </Tab>
-      <Tab title="Fail Challenge"> 
-      <Steps>
-        <Step title="Prompt Customer">
-        Start the onboarding flow on the initial screen and enter the wrong SSN or DOB for the user.
-        <br />
-        <Frame>
-          <img src="/images/docs/OTP.png" />
-        </Frame>
-        </Step>
-        <Step title="Verify Mobile Number">
-        Once the front end finishes the possession check, the back end calls the /validate endpoint with the correlation ID to authenticate the trustworthiness of the phone number. 
-        The response provides:
-        - `challengeMissing=false` due to passing the challenge into the /start call.
-        - `success=true`
-        - `phoneNumber` that was initially passed.
-        - `/v3/challenge` as the next endpoint to call.
-
-        The back end will then call the /challenge endpoint with the correlation ID. The user then fails /challenge. Send the user through the exception process.
-        ```json Response
-        {
-          "next": {
-            "v3-complete": "/v3/complete"
-          },
-          "success": false
-        } 
-        ```
-        </Step>
-        </Steps>
-      </Tab>
-      <Tab title="Fail Complete"> 
-      <Steps>
-      <Step title="Review PII">
-        When viewing the following page, prefilled with the user's PII, change the last name. 
-        <Frame>
-          <img src="/images/docs/OTP.png" />
-        </Frame>
-        The back end will then call the /complete endpoint with the correlation ID and the edited information. The user will fail /complete. Send the user through the exception process.
-        ```json Response
-        {
-          "next": {
-            "v3-complete": "/v3/complete"
-          },
-          "success": false
-        } 
-        ```
-      </Step>
-    </Steps>
-      </Tab>
-    </Tabs>
-</Tab>
+      
 </Tabs>
