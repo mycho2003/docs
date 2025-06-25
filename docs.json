@@ -11,6 +11,24 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "mycho's hot sauce",
+        "groups": [
+          {
+            "group": "Endpoint Examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete"
+            ]
+          },
+          {
+            "group": "API Documentation",
+            "pages": ["api-reference/introduction"],
+            "openapi": "openapi.json"
+          }
+        ]
+      },
+      {
         "tab": "Guides",
         "groups": [
           {
@@ -26,24 +44,6 @@
               "essentials/settings",
               "essentials/navigation",
               "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "mycho's hot sauce",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": ["api-reference/introduction"],
-            "openapi": "openapi.json"
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
             ]
           }
         ]
