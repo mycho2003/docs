@@ -16,6 +16,7 @@
           {
             "group": "Endpoint Examples",
             "pages": [
+              "api-reference/pet/update-an-existing-pét",
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete"
