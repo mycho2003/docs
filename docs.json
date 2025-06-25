@@ -11,40 +11,39 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "mycho's hot sauce",
-        "groups": [
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/pet/update-an-existing-pét",
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
-            ]
-          },
-          {
-            "group": "API Documentation",
-            "pages": ["api-reference/introduction"],
-            "openapi": "openapi.json"
-          }
-        ]
-      },
-      {
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
-            "pages": ["index", "quickstart", "development"]
-          },
-          {
             "group": "Essentials",
             "pages": [
-              "essentials/markdown",
+              "essentials/markdowné",
               "essentials/code",
               "essentials/images",
               "essentials/settings",
               "essentials/navigation",
               "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "Get Started",
+            "pages": ["index", "quickstart", "development"]
+          }
+        ]
+      },
+      {
+        "tab": "mycho's hot sauce",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": ["api-reference/introduction"],
+            "openapi": "openapi.json"
+          },
+          {
+            "group": "Endpoint Examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete"
             ]
           }
         ]
@@ -95,6 +94,10 @@
     }
   },
   "redirects": [
+    {
+      "source": "/",
+      "destination": "/api-reference/pet/update-an-existing-pét"
+    },
     {
       "source": "/api-reference/oops",
       "destination": "/api-reference/pet/update-an-existing-pét"
