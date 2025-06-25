@@ -13,6 +13,10 @@
       {
         "tab": "Guides",
         "groups": [
+	  {
+            "group": "Get Started",
+            "openapi": "openapi.json"
+          },
           {
             "group": "Essentials",
             "pages": [
@@ -23,10 +27,6 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
-          },
-	  {
-            "group": "Get Started",
-            "openapi": "openapi.json"
           }
         ]
       }
