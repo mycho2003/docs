@@ -14,6 +14,10 @@
         "tab": "Guides",
         "groups": [
           {
+            "group": "Get Started",
+            "openapi": "openapi.json"
+          },
+          {
             "group": "Essentials",
             "pages": [
               "essentials/markdowné",
@@ -23,10 +27,6 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
-          },
-          {
-            "group": "Get Started",
-            "pages": ["index", "quickstart", "development"]
           }
         ]
       },
@@ -35,8 +35,7 @@
         "groups": [
           {
             "group": "API Documentation",
-            "pages": ["api-reference/introduction"],
-            "openapi": "openapi.json"
+            "pages": ["api-reference/introduction"]
           },
           {
             "group": "Endpoint Examples",
