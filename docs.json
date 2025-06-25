@@ -107,6 +107,6 @@
     {
       "source": "/api-reference/haha",
       "destination": "/api-reference/pet/add-a-new-pet-to-the-store"
-    }e
+    }
   ]
 }
