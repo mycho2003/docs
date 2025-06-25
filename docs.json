@@ -13,8 +13,8 @@
       {
         "tab": "Guides",
         "groups": [
-	  {
-            "group": "Get Started",
+          {
+            "group": "Don't use this",
             "openapi": "openapi.json"
           },
           {
