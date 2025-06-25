@@ -10,6 +10,7 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
+      { "tab": "Guides", "groups": [ { "group": "Get Started", "pages": [ "index", "quickstart", "development" ] }, { "group": "Essentials", "pages": [ "essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation", "essentials/reusable-snippets" ] } ] },
       {
         "tab": "mycho's hot sauce",
         "groups": [
@@ -83,6 +84,6 @@
     {
       "source": "/api-reference/haha",
       "destination": "/api-reference/pet/add-a-new-pet-to-the-store"
-    }
+    }e
   ]
 }
