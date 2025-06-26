@@ -175,7 +175,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Finds Pets by status%2525%2525",
+        "summary": "Finds Pets by status%%",
         "description": "Multiple status values can be provided with comma separated strings",
         "operationId": "findPetsByStatus",
         "parameters": [
