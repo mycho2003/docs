@@ -27,6 +27,15 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
+          },
+          {
+            "group": "An extra thing",
+            "openapi": {
+              "source": "https://petstore3.swagger.io/api/v3/",
+              "directory": "api-reference",
+              "version": "3.0.3"
+            },
+            "pages": ["api-reference/temp"]
           }
         ]
       }

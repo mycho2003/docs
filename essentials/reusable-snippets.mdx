@@ -1,10 +1,10 @@
 ---
 title: Reusable Snippets
 description: Reusable, custom snippets to keep content in sync
-icon: 'recycle'
+icon: "recycle"
 ---
 
-import SnippetIntro from '/snippets/snippet-intro.mdx';
+import SnippetIntro from "/snippets/snippet-intro.mdx";
 
 <SnippetIntro />
 
@@ -43,7 +43,7 @@ title: My title
 description: My Description
 ---
 
-import MySnippet from '/snippets/path/to/my-snippet.mdx';
+import MySnippet from "/snippets/path/to/my-snippet.mdx";
 
 ## Header
 
@@ -57,9 +57,11 @@ Lorem impsum dolor sit amet.
 1. Export a variable from your snippet file:
 
 ```mdx snippets/path/to/custom-variables.mdx
-export const myName = 'my name';
+export const myName = "my name";
 
-export const myObject = { fruit: 'strawberries' };
+export const myObject = { fruit: "strawberries" };
+
+;
 ```
 
 2. Import the snippet from your destination file and use the variable:
@@ -70,7 +72,7 @@ title: My title
 description: My Description
 ---
 
-import { myName, myObject } from '/snippets/path/to/custom-variables.mdx';
+import { myName, myObject } from "/snippets/path/to/custom-variables.mdx";
 
 Hello, my name is {myName} and I like {myObject.fruit}.
 ```
@@ -87,6 +89,8 @@ export const MyComponent = ({ title }) => (
     <p>... snippet content ...</p>
   </div>
 );
+
+;
 ```
 
 <Warning>
@@ -102,9 +106,44 @@ title: My title
 description: My Description
 ---
 
-import { MyComponent } from '/snippets/custom-component.mdx';
+import { MyComponent } from "/snippets/custom-component.mdx";
 
 Lorem ipsum dolor sit amet.
 
-<MyComponent title={'Custom title'} />
+<MyComponent title={"Custom title"} />
 ```
+
+<AccordionGroup>
+  <Accordion title="Repository">
+    Your documentation's source where all files and their history are stored. The web editor connects to your repository to access and modify content.
+  </Accordion>
+
+{" "}
+<Accordion title="Commit">
+  A saved snapshot of your changes at a specific point in time.
+</Accordion>
+
+{" "}
+<Accordion title="Branch">
+  A separate workspace for making changes without affecting your live
+  documentation. Think of it as a safe sandbox for experiments and larger
+  updates.
+</Accordion>
+
+{" "}
+<Accordion title="Deployment branch">
+  The main branch that contains your live documentation content. Changes to this
+  branch are automatically published to your documentation site. Often called
+  `main`.
+</Accordion>
+
+{" "}
+<Accordion title="Pull request">
+  A way to propose merging your branch changes into your live documentation.
+  Allows for review and discussion before changes go live. Commonly called a PR.
+</Accordion>
+
+  <Accordion title="Diff">
+    A diff (or difference) shows the specific changes between two versions of a file. When reviewing pull requests, diffs highlight what has been added, removed, or modified.
+</Accordion>
+</AccordionGroup>
