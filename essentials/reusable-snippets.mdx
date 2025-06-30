@@ -119,11 +119,30 @@ Lorem ipsum dolor sit amet.
   </Accordion>
 
 {" "}
+
 <Accordion title="Commit">
   A saved snapshot of your changes at a specific point in time.
 </Accordion>
 
 {" "}
+
+<Accordion title="Branch">
+  A separate workspace for making changes without affecting your live
+  documentation. Think of it as a safe sandbox for experiments and larger
+  updates.
+  <AccordionGroup>
+  <Accordion title="Repository">
+    Your documentation's source where all files and their history are stored. The web editor connects to your repository to access and modify content.
+  </Accordion>
+
+{" "}
+
+<Accordion title="Commit">
+  A saved snapshot of your changes at a specific point in time.
+</Accordion>
+
+{" "}
+
 <Accordion title="Branch">
   A separate workspace for making changes without affecting your live
   documentation. Think of it as a safe sandbox for experiments and larger
@@ -131,6 +150,7 @@ Lorem ipsum dolor sit amet.
 </Accordion>
 
 {" "}
+
 <Accordion title="Deployment branch">
   The main branch that contains your live documentation content. Changes to this
   branch are automatically published to your documentation site. Often called
@@ -138,6 +158,28 @@ Lorem ipsum dolor sit amet.
 </Accordion>
 
 {" "}
+
+<Accordion title="Pull request">
+  A way to propose merging your branch changes into your live documentation.
+  Allows for review and discussion before changes go live. Commonly called a PR.
+</Accordion>
+
+  <Accordion title="Diff">
+    A diff (or difference) shows the specific changes between two versions of a file. When reviewing pull requests, diffs highlight what has been added, removed, or modified.
+</Accordion>
+</AccordionGroup>
+</Accordion>
+
+{" "}
+
+<Accordion title="Deployment branch">
+  The main branch that contains your live documentation content. Changes to this
+  branch are automatically published to your documentation site. Often called
+  `main`.
+</Accordion>
+
+{" "}
+
 <Accordion title="Pull request">
   A way to propose merging your branch changes into your live documentation.
   Allows for review and discussion before changes go live. Commonly called a PR.
