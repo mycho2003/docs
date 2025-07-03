@@ -93,13 +93,5 @@
       "source": "/api-reference/haha",
       "destination": "/api-reference/pet/add-a-new-pet-to-the-store"
     }
-  ],
-  "integrations": {
-    "customScripts": [
-      {
-        "id": "temp",
-        "src": "https://1.www.s81c.com/common/stats/ibm-common.js"
-      }
-    ]
-  }
+  ]
 }
