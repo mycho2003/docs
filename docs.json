@@ -13,6 +13,9 @@
       {
         "tab": "Guides",
         "openapi": "openapi.json",
+        "pages": [
+          "essentials/markdown"
+        ],
         "groups": [
           {
             "group": "Don't use this"
