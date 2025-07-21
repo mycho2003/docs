@@ -12,10 +12,10 @@
     "tabs": [
       {
         "tab": "Guides",
+        "openapi": "openapi.json",
         "groups": [
           {
-            "group": "Don't use this",
-            "openapi": "openapi.json"
+            "group": "Don't use this"
           },
           {
             "group": "Essentials",
