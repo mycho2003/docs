@@ -14,7 +14,8 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Don't use this"
+            "group": "Don't use this",
+            "openapi": "openapi.json"
           },
           {
             "group": "Essentials",
