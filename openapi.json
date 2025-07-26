@@ -1037,7 +1037,7 @@
         }
       },
       "Pet": {
-        "required": ["name", "photoUrls"],
+        "required": ["id", "photoUrls"],
         "type": "object",
         "properties": {
           "id": {
