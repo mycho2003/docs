@@ -15,21 +15,25 @@ api: "POST https://api.personetics.com/pserver/execute"
   The request's mother.
 </ParamField>
 
-<ParamField body="winning" type="bool" default="false" placeholder="areya">
+<ParamField body="winning" type="bool" default={false} placeholder="areya">
   son?
 </ParamField>
 
-<ParamField body="count" type="number" default="0" placeholder="up b">
+<ParamField body="count" type="number" default={0} placeholder="up b">
   puff sux
 </ParamField>
 
 <ParamField
   body="stuffs"
   type="string[]"
-  default="[&#34;hihi&#34;, &#34;okok&#34;]"
+  default={["hihi", "okok"]}
   placeholder="??"
 >
   okok
+</ParamField>
+
+<ParamField body="thing1thing2" type="object" default={{ name: "lolol" }}>
+  floor 30
 </ParamField>
 
 hey this is kinda weird?
