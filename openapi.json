@@ -234,6 +234,16 @@
             }
           }
         ],
+        "x-mint": {
+          "metadata": {
+            "description": "This is a test",
+            "title": "This is a title",
+            "deprecated": true,
+            "sidebarTitle": "This is a sidebar title"
+          },
+          "content": "## Basic\n### Inline Code\nTo denote a `word` or `phrase` as code, enclose it in backticks (`).\n```\nTo denote a `word` or `phrase` as code, enclose it in backticks (`).\n```",
+          "href": "hihi/hoho"
+        },
         "responses": {
           "200": {
             "description": "successful operation",
