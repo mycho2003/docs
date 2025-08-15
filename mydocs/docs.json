@@ -35,7 +35,7 @@
               "directory": "api-reference",
               "version": "3.0.3"
             },
-            "pages": ["api-reference/temp"]
+            "pages": ["api-reference/temp", "development"]
           }
         ]
       }
