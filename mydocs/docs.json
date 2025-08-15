@@ -15,7 +15,7 @@
         "groups": [
           {
             "group": "Don't use this",
-            "openapi": "openapi.json"
+            "openapi": "https://example.com/openapi.json"
           },
           {
             "group": "Essentials",
