@@ -15,7 +15,7 @@
         "groups": [
           {
             "group": "Don't use this",
-            "openapi": "https://example.com/openapi.json"
+            "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
           },
           {
             "group": "Essentials",
