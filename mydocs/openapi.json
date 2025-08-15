@@ -1024,7 +1024,7 @@
             "type": "integer",
             "description": "User Status",
             "format": "int32",
-            "example": 1,
+            "example": 1
           }
         },
         "xml": {
